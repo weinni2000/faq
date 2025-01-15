@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <template t-name="minimal_owl_template">
+        <t t-call="website.layout">
+            <t t-set="pageName" t-value="'homepage'" />
+            <div id="oe_structure_wrap" class="oe_structure oe_empty">
+                <section>
+                    <owl-component name="minimal_owl.entrypoint_component" />
+                </section>
+            </div>
+        </t>
+    </template>
+</odoo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+    <t t-name="minimal_owl.EntrypointComponent" owl="1">
+        <p>Test</p>
+
+        <h1>Test 1</h1>
+        <a
+            tabindex="0"
+            class="btn btn-lg btn-danger"
+            role="button"
+            data-bs-toggle="popover"
+            data-bs-trigger="focus"
+            title="Dismissible popover"
+            data-bs-content="And here's some amazing content. It's very engaging. Right?"
+        >Dismissible popover</a>
+
+        <h1>Test 2</h1>
+        <button
+            type="button"
+            class="btn btn-secondary"
+            data-bs-container="body"
+            data-bs-toggle="popover"
+            data-bs-placement="top"
+            data-bs-content="Top popover"
+        >
+  Popover on top
+        </button>
+
+
+        <p class="popover-dismiss">testibus</p>
+    </t>
+</templates>
